@@ -84,13 +84,6 @@ hr {
 	padding: 15px;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: 118px 118px;
-	grid-gap: 0 18px;
-	margin: 6px auto;
-}
-
 .footlink {
 	font-style: italic;
 	color: #20a1d4;
@@ -116,7 +109,7 @@ hr {
 #donorBlast .grid {
 	display: grid;
 	grid-template-columns: 105px 105px;
-	grid-gap: 0 18px;
+	grid-gap: 0 12px;
 	margin: 6px 0;
 }
 
@@ -124,6 +117,8 @@ hr {
 	color: white;
 	background-color: #1cbc2c;
 	border-radius: 6px;
+	font-size: 12pt;
+	font-weight: 200;
 }
 
 #donationInput {
@@ -136,4 +131,11 @@ hr {
 #statusBar {
 	background-color: #eaeaea;
 	border-bottom: thin solid #eaeaea;
+}
+
+#toolbar .grid {
+	display: grid;
+	grid-template-columns: 118px 118px;
+	grid-gap: 0 18px;
+	margin: 6px auto;
 }
