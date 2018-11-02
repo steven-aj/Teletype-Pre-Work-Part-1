@@ -45,10 +45,7 @@ hr {
 	margin: 0 auto
 }
 
-.text-center {
-	text-align: center;
-}
-
+/* Decorative classes */
 .quote-dark {
 	color: white;
 	background-color: #424242;
@@ -67,6 +64,10 @@ hr {
     border-color: #424242 transparent transparent transparent;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .status {
 	background-color: #ef5f3c;
 	height: 10px;
@@ -83,6 +84,7 @@ hr {
 .content {
 	padding: 15px;
 	color: #777777;
+	font-size: small;
 }
 
 .footlink {
@@ -92,6 +94,7 @@ hr {
 	font-size: small;
 }
 
+/* Content containers */
 #donationModule {
 	max-width: 260px;
 	margin: 2em auto;
@@ -112,27 +115,6 @@ hr {
 	border-bottom: thin solid lightgrey;
 }
 
-#donorBlast .grid {
-	display: grid;
-	grid-template-columns: 105px 105px;
-	grid-gap: 0 12px;
-	margin: 6px 0;
-}
-
-#donorBlast .grid input {
-	font-size: 12pt;
-}
-
-#donorBlast .grid button {
-	color: white;
-	background-color: #1cbc2c;
-	border-radius: 3px;
-	border: none;
-	font-size: 12pt;
-	font-weight: 200;
-	box-shadow: none;
-}
-
 #donationInput {
 	border: thin solid black;
 	border-radius: 3px;
@@ -150,7 +132,6 @@ hr {
 
 #toolbar button {
 	padding: 8px;
-	background-color: #eaeaea;
 	border-radius: 3px;
 	border: thin solid lightgrey;
 	font-size: small;
