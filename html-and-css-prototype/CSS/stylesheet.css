@@ -107,13 +107,14 @@ hr {
 	padding: 9px;
 }
 
-#donorBlast {
+#statusBar {
+	background-color: #eaeaea;
 	border: thin solid lightgrey;
+	border-bottom: none;
 }
 
-#donorBlast #statusBar {
-	background-color: #eaeaea;
-	border-bottom: thin solid lightgrey;
+#donorBlast {
+	border: thin solid lightgrey;
 }
 
 #donorBlast .grid {
