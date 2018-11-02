@@ -107,6 +107,10 @@ hr {
 	font-size: small;
 }
 
+.content p {
+	max-width: 200px;
+}
+
 .footlink {
 	font-style: italic;
 	color: #20a1d4;
