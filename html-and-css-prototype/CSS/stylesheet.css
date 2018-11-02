@@ -59,7 +59,7 @@ hr {
 .bottom-arrow {
     display: inline-block;
 		position: relative;
-		left: 80%;
+		left: 84%;
     width: 0;
     height: 0;
     border-style: solid;
@@ -77,11 +77,12 @@ hr {
 }
 
 .hovering {
-	box-shadow: 1px 2px 2px #eaeaea;
+	box-shadow: 1px 2px 2px rgb(211,211,211, .33);
 }
 
 .content {
 	padding: 15px;
+	color: #777777;
 }
 
 .footlink {
@@ -103,7 +104,12 @@ hr {
 }
 
 #donorBlast {
-	border: thin solid #eaeaea;
+	border: thin solid lightgrey;
+}
+
+#donorBlast #statusBar {
+	background-color: #eaeaea;
+	border-bottom: thin solid lightgrey;
 }
 
 #donorBlast .grid {
@@ -113,12 +119,18 @@ hr {
 	margin: 6px 0;
 }
 
+#donorBlast .grid input {
+	font-size: 12pt;
+}
+
 #donorBlast .grid button {
 	color: white;
 	background-color: #1cbc2c;
-	border-radius: 6px;
+	border-radius: 3px;
+	border: none;
 	font-size: 12pt;
 	font-weight: 200;
+	box-shadow: none;
 }
 
 #donationInput {
@@ -128,14 +140,19 @@ hr {
 	padding: 6px;
 }
 
-#statusBar {
-	background-color: #eaeaea;
-	border-bottom: thin solid #eaeaea;
+#toolbar {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 120px 120px;
+	grid-gap: 0 20px;
+	margin: 6px auto;
 }
 
-#toolbar .grid {
-	display: grid;
-	grid-template-columns: 118px 118px;
-	grid-gap: 0 18px;
-	margin: 6px auto;
+#toolbar button {
+	padding: 8px;
+	background-color: #eaeaea;
+	border-radius: 3px;
+	border: thin solid lightgrey;
+	font-size: small;
+	font-weight: 200;
 }
