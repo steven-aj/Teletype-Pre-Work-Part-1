@@ -40,6 +40,7 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
 hr {
 	max-width: 66%;
 	margin: 0 auto
@@ -113,6 +114,28 @@ hr {
 #donorBlast #statusBar {
 	background-color: #eaeaea;
 	border-bottom: thin solid lightgrey;
+}
+
+#donorBlast .grid {
+	display: grid;
+	grid-template-columns: 105px 105px;
+	grid-gap: 0 12px;
+	margin: 12px 0;
+}
+
+#donorBlast .grid input {
+	font-size: 12pt;
+	border: thin solid lightgrey;
+}
+
+#donorBlast .grid button {
+	color: white;
+	background-color: #1cbc2c;
+	border-radius: 3px;
+	border: none;
+	font-size: 11pt;
+	font-weight: bold;
+	box-shadow: none;
 }
 
 #donationInput {
