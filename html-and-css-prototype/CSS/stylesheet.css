@@ -82,6 +82,21 @@ hr {
 	box-shadow: 1px 2px 2px rgb(211,211,211, .33);
 }
 
+.grid {
+	display: grid;
+	margin: 12px 0;
+}
+
+.green-btn {
+	color: white;
+	background-color: #1cbc2c;
+	border-radius: 3px;
+	border: none;
+	font-size: 11pt;
+	font-weight: bold;
+	box-shadow: none;
+}
+
 .content {
 	padding: 15px;
 	color: #777777;
@@ -118,25 +133,13 @@ hr {
 }
 
 #donorBlast .grid {
-	display: grid;
 	grid-template-columns: 105px 105px;
 	grid-gap: 0 12px;
-	margin: 12px 0;
 }
 
 #donorBlast .grid input {
 	font-size: 12pt;
 	border: thin solid lightgrey;
-}
-
-#donorBlast .grid button {
-	color: white;
-	background-color: #1cbc2c;
-	border-radius: 3px;
-	border: none;
-	font-size: 11pt;
-	font-weight: bold;
-	box-shadow: none;
 }
 
 #donationInput {
@@ -148,10 +151,8 @@ hr {
 
 #toolbar {
 	text-align: center;
-	display: grid;
 	grid-template-columns: 120px 120px;
 	grid-gap: 0 20px;
-	padding: 12px 0;
 }
 
 #toolbar button {
